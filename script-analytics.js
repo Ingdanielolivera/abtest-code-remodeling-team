@@ -1,4 +1,3 @@
-<script>
 document.addEventListener("DOMContentLoaded", function() {
   // Seleccionar el iframe que contiene el survey
   const iframe = document.querySelector("iframe[src*='leadconnectorhq.com']");
@@ -28,4 +27,3 @@ document.addEventListener("DOMContentLoaded", function() {
     console.warn('No se encontró el iframe');
   }
 });
-</script>
